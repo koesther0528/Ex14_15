@@ -11,6 +11,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     String[] fruitsArr = {"수박","메론","딸기"};
+    boolean[] checkArr = {true, false, true};
     int[] imgsArr = {R.drawable.w1, R.drawable.m1, R.drawable.s1};
     Button btnFruits;
     ImageView imgV;
