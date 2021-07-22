@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     new AlertDialog.Builder(MainActivity.this)
                     .setTitle(R.string.btn_fruits)
                     .setIcon(R.drawable.w)
-                            .show();
+                            .setPositiveButton("닫기", null);
                     break;
 
             }
